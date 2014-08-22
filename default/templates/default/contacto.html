@@ -1,0 +1,26 @@
+{% extends 'default/base.html' %}
+
+{% load i18n %}
+
+{%block content%}
+
+<section class="contacto">
+	
+	<div class="wrapper">
+
+		<div class='bloque foto'>
+			<img src='/static/default/img/juan-sebastian-goldberg-con-fondo.jpg' />
+		</div>
+	
+		<ul class='bloque datos'>
+			<li class="mail"><a href="mailto:sebas.goldberg@gmail.com">{% trans "Mandame un mail a sebas.goldberg@gmail.com" %}</a></li>
+			<li class="skype-tel"><a href="skype:sebas.goldberg?chat">{% trans "Hablá conmigo por skype" %}</a></li>
+			<li class="telefono"><a href="tel:+5491150573209">{% trans "Llamame a mi cel: +54 9 (11) 5057-3209" %}</a></li>
+			<li class="linkedin"><a href="https://www.linkedin.com/profile/view?id=31039161&authType=name&authToken=jqqw&pvs=pp" target="_blank">{% trans "Añadime a tu red en Linkedin" %}</a></li>
+		</ul>
+
+	</div>
+	
+</section>
+
+{%endblock%}

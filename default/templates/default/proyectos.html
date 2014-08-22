@@ -1,0 +1,96 @@
+{% extends 'default/base.html' %}
+
+{% load i18n %}
+
+{%block content%}
+
+<section>
+	<div class="grupo-proyectos">
+		
+		<ul class="proyectos">
+
+			<h1>Proyectos</h1>
+			<div class="articulo">
+				<p>A continuación podrá acceder a la información de los proyectos en los que he participado, clasificados de la siguiente forma:
+					<ul>
+						{% for tipoProyecto in tipoProyectos %}
+						<li><a href='#tipo-proyecto-{{tipoProyecto.id}}'>{% trans "Proyectos" %} {{tipoProyecto.descripcion}}</a></li>
+						{% endfor %}
+						</ul>
+					Para ver un detalle de las tareas más destacadas, simplemente haga clic en el proyecto de interés.</p>
+			</div>
+			
+			{% for tipoProyecto in tipoProyectos %}
+				<div class="proyectos-por-tipo">
+					<a id='tipo-proyecto-{{tipoProyecto.id}}'><h1>{% trans "Proyectos" %} {{tipoProyecto.descripcion}}</h1></a>
+					{%for proyecto in tipoProyecto.proyecto_set.all%}
+					<li class="proyecto">
+							<div>
+								<a href="#" data-toggle="modal" data-target="#myModal{{proyecto.id}}">
+									<img src="{{proyecto.img.url}}" alt="Destino SAP">
+								</a>
+								<h4>{{proyecto.titulo}}</h4>
+								<h5>{{proyecto.getDescripcionDuracion}}</h5>
+							</div>
+					</li>
+					<!-- Modal -->
+					<div class="modal fade" id="myModal{{proyecto.id}}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel{{proyecto.id}}" aria-hidden="true">
+					  <div class="modal-dialog">
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+					        <h4 class="modal-title" id="myModalLabel{{proyecto.id}}">{{proyecto.titulo}}</h4>
+					      </div>
+					      <div class="modal-body">
+		
+							<dl>
+								<dt>{% trans "Empresas" %}</dt>
+								<dd>
+									<ul>
+										{%for empresa in proyecto.empresas.all%}
+											<li>{{empresa.nombre}}</li>
+										{%endfor%}
+									</ul>
+								</dd>
+								
+								<!-- <dt>{% trans "Cliente" %}</dt>
+								<dd>{% trans "Aerolíneas Argentinas/Austral (Argentina)"%}</dd> -->
+								
+								<dt>{% trans "Duración" %}</dt>
+								<dd><ul><li>{{proyecto.getDescripcionDuracion}}</li></ul></dd>
+								
+								<dt>{% trans "Idioma" %}</dt>
+								<dd><ul><li>{{proyecto.idioma}}</li></ul></dd>
+								
+								<dt>{% trans "País" %}</dt>
+								<dd><ul><li>{{proyecto.pais}}</li></ul></dd>
+								
+								<dt>{% trans "Modalidad" %}</dt>
+								<dd><ul><li>{{proyecto.getDescripcionModalidad}}</li></ul></dd>
+								
+								<dt>{% trans "Tareas Realizadas:"%}</dt>
+								<dd>
+									<ul>
+										{%for tarea in proyecto.getTareas %}
+										<li>
+											{{tarea.descripcion}}<strong>[{{tarea.areas.all|join:", "}}]</strong>
+										</li>
+										{%endfor%}
+									</ul>
+								</dd>
+							</dl>
+							</div>
+		
+					      </div>
+					    </div>
+					  </div>
+					{%endfor%}
+				</div>
+			{%endfor%}
+
+		</ul>
+		
+	</div>
+</section>
+
+{%endblock%}

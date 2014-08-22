@@ -1,0 +1,10 @@
+{% load i18n %}
+
+<nav>
+	<ul>
+		<li class="{{menuInicio}}"><a href="{% url 'home' %}">{% trans "Inicio"%}</a></li>
+		<!-- <li class="{{menuEstudios}}"><a href="{% url 'estudios'%}">{% trans "Idiomas y Estudios" %}</a></li> -->
+		<li class="{{menuProyectos}}"><a href="{% url 'proyectos'%}">{% trans "Proyectos" %}</a></li>
+		<li class="{{menuContacto}}"><a href="{% url 'contacto' %}">{% trans "Contacto" %}</a></li>
+	</ul>
+</nav>

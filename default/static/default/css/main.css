@@ -1,0 +1,335 @@
+*{
+	font-family: 'Merriweather', serif;
+	line-height: 1.9em;
+}
+
+i{
+	font-size: 1.5em;
+}
+
+a{
+	color: crimson;
+}
+
+a:hover{
+	color: tomato;
+	text-decoration: none;
+}
+
+h1, h2, h3, h4, a{
+	/*font-family: 'Permanent Marker', cursive;*/
+	font-family: 'Graduate', cursive;
+}
+
+body{
+	background: url('/static/default/img/bg-header.png');
+}
+
+/*********************************************
+ * HEADER
+ **********************************************/
+header{
+  float: left;
+  margin: 0 0 50px 0;
+  padding: 10px 10% 0;
+  width: 100%;
+  background-image: 
+  	linear-gradient(
+  		to top left,
+  		rgba(63,130,104,1),
+  		rgba(63,130,104,0)),
+  	url('/static/default/img/bg-header.png');
+  border-bottom: #1d362c solid 6px;
+}
+
+.logo h1{
+	margin-bottom: 0;
+	color: #1d362c;
+}
+
+.logo h2{
+	margin-top: 0;
+	font-size: 1.25em;
+	text-align: right;
+	color: #1d362c;
+}
+
+.logo:hover{
+	text-shadow: 1px 1px 5px white;
+}
+
+.logo .titulo{
+	float: left;
+}
+
+header .logo img{
+	margin-left: 10px;
+	float: left;
+	width: 100px;
+	max-width: 100%;
+	border-radius: 30% / 15%;
+	border-color: #1d362c;
+	border-style: solid;
+	border-width: 2px;
+	margin-right: 10px;
+	text-align: center;
+}
+
+header .logo:hover img{
+	box-shadow: 1px 1px 5px white;
+	background-color: rgba(255,255,255,.3);
+}
+
+header .logo{
+	/*display: inline-block;*/
+	float: left;
+}
+
+/*********************************************
+ * NAV
+ **********************************************/
+header nav{
+	float: right;
+	clear: both;
+	text-align: center;
+	color: #1d362c
+}
+
+nav li{
+	list-style: none;
+	float: left;
+	padding: 0 15px 0;
+}
+
+nav li a{
+	font-size: 1.5em;
+	color: #1d362c;
+}
+
+header nav li:hover, header nav li.selected{
+	/*background-color: #32a77a;
+	border-color:#1D362C;*/
+	text-shadow: 1px 1px 5px white;
+}
+
+nav li a:hover, nav li.selected a{
+	text-decoration: none;
+	color: #1d362c;
+}
+
+.wrapper{
+	margin: 0 auto 0;
+	clear: both;
+	max-width: 50em;
+	padding: 0 2em 0;
+}
+
+/*********************************************
+ * PROYECTO
+ **********************************************/
+ul.proyectos{
+	margin: 0;
+	clear: both;
+}
+
+.proyectos-por-tipo{
+	clear: both;
+}
+
+li.proyecto{
+	list-style: none;
+	float: left;
+	margin: 20px 5% 20px;
+	width: 15%;
+	/*padding: 10px 10px;*/
+}
+
+.proyectos-por-tipo li.proyecto:nth-of-type(4n+1){
+	clear: both;
+}
+
+li.proyecto h4, li.proyecto h5{
+	text-align: center;
+}
+
+li.proyecto h5{
+	color: gray;
+}
+
+li.proyecto img{
+	max-width: 100%;
+	border-radius: 100%;
+	border-color: #CCC;
+	border-style: solid;
+	border-width: 2px;
+}
+
+li.proyecto img:hover{
+	box-shadow: 2px 2px 5px #CCC, -2px -2px 5px #CCC, 2px -2px 5px #CCC, -2px 2px 5px #CCC;
+	/*border-color: rgb(133, 167, 132);*/
+}
+
+li.proyecto img:selected{
+	text-decoration: none;
+}
+
+/*li.proyectos div.descripcion{
+	visibility: hidden;
+}*/
+
+.articulo{
+	font-size: 1.2em;
+	margin: 0 0 50px;
+}
+
+.articulo h3, .proyectos h1, .proyectos h2{
+	color: rgb(133, 167, 132);
+	font-size: 2em;
+}
+
+/*********************************************
+ * FOOTER
+ **********************************************/
+footer{
+	clear: both;
+	background: #1d362c;
+	border-top: 5px solid rgb(63,130,104);
+	color: rgb(63,130,104);
+	padding: 40px 0;
+	margin: 50px 0 0;
+}
+
+footer nav a, footer a{
+	color: rgb(63,130,104);
+}
+
+footer nav ul{
+	float: left;
+	
+}
+
+footer nav li{
+	float: none;
+}
+
+footer nav li a{
+	font-size: 1.25em;
+}
+
+footer nav li a:hover, nav li.selected a, footer a:hover{
+	text-decoration: none;
+	color: rgb(63,130,104);
+}
+
+footer nav{
+	float: left;
+	margin: 0;
+	/*width: 30%*/
+	font-size: 1em;
+	margin-right: 50px;
+}
+
+footer ul.datos-contacto{
+	float: right;
+	margin: 0;
+	/*width: 50%*/
+}
+
+footer ul.datos-contacto li{
+	list-style: none;
+}
+
+footer ul.datos li{
+	margin: 0 0 1em;
+}
+
+footer .facebook-links{
+	float: left;
+	margin: 0;
+}
+
+/*********************************************
+ * CONTACTO
+ **********************************************/
+.bloque{
+	/*padding: 0 auto 0px;*/
+	margin: auto;
+	width: 70%;
+	clear: both;
+}
+
+.contacto .foto{
+	text-align: center;
+	/*border-right: 2px dashed gray;*/
+	width: 30%;
+	margin: 0 auto 50px;
+}
+
+.contacto .foto img{
+	max-width: 100%;
+	border-radius: 50%;
+	border-width: 2px solid #CCC;
+}
+
+.contacto ul.datos a{
+	color: #888;
+}
+
+ul.datos li{
+	list-style: none;
+	/*background-size: cover;*/
+	padding-left: 35px;
+	margin: 15px 0 15px;
+}
+
+.mail{
+	background: url('/static/default/img/mail-27.png') no-repeat;	
+}
+
+.skype-chat{
+	background: url('/static/default/img/skype-chat-27.png') no-repeat;
+}
+
+.skype-tel{
+	background: url('/static/default/img/skype-27.png') no-repeat;
+}
+
+.telefono{
+	/*background: url('/static/default/img/tel.png') no-repeat;*/
+	background: url('/static/default/img/tel-27.png') no-repeat;
+}
+
+.linkedin{
+	background: url('/static/default/img/linkedin-27.png') no-repeat;
+}
+
+/*********************************************
+ * CLEAR FIX
+ **********************************************/
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}

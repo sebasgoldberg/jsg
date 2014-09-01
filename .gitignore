@@ -14,3 +14,5 @@ db.sqlite3
 .project
 .pydevproject
 .settings
+upload.sh
+environment.py

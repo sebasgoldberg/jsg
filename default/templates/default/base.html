@@ -16,21 +16,26 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 		<link rel="shortcut icon" href="/static/default/img/juan-sebastian-goldberg.ico">
-		<!-- <link rel="stylesheet" href="http://basehold.it/31"> -->
-		<link rel="stylesheet" href="/static/default/bootstrap/css/bootstrap.css">
-		<link rel="stylesheet" href="/static/default/bootstrap/css/bootstrap-theme.css">
 
-		<link href='http://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Homemade+Apple' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    {% if settings.DEBUG %}
+      <link rel="stylesheet" href="/static/default/bootstrap/css/bootstrap.css">
+      <link rel="stylesheet" href="/static/default/bootstrap/css/bootstrap-theme.css">
+    {% else %}
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    {% endif %}
+  
 		<link href='http://fonts.googleapis.com/css?family=Graduate' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Oldenburg' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Merriweather:400,300' rel='stylesheet' type='text/css'>
 		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 		<link rel="stylesheet" href="/static/default/css/main.css">
 		
-		<script src="/static/default/jquery/js/jquery.js"></script>		
-		<script src="/static/default/bootstrap/js/bootstrap.js"></script>		
+    {% if settings.DEBUG %}
+      <script src="/static/default/jquery/js/jquery.js"></script>		
+      <script src="/static/default/bootstrap/js/bootstrap.js"></script>		
+    {% else %}
+      <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    {% endif %}
 
 	</head>
 

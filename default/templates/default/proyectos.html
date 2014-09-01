@@ -11,7 +11,7 @@
 
 			<h1>Proyectos</h1>
 			<div class="articulo">
-				<p>A continuación podrá acceder a la información de los proyectos en los que he participado, clasificados de la siguiente forma:
+				<p>A continuación podrá acceder a la información más relevante de los proyectos en los que he participado, clasificados de la siguiente forma:
 					<ul>
 						{% for tipoProyecto in tipoProyectos %}
 						<li><a href='#tipo-proyecto-{{tipoProyecto.id}}'>{% trans "Proyectos" %} {{tipoProyecto.descripcion}}</a></li>
@@ -27,7 +27,7 @@
 					<li class="proyecto">
 							<div>
 								<a href="#" data-toggle="modal" data-target="#myModal{{proyecto.id}}">
-									<img src="{{proyecto.img.url}}" alt="Destino SAP">
+									<img src="{{proyecto.thumbnail.url}}" alt="Destino SAP">
 								</a>
 								<h4>{{proyecto.titulo}}</h4>
 								<h5>{{proyecto.getDescripcionDuracion}}</h5>
@@ -52,9 +52,6 @@
 										{%endfor%}
 									</ul>
 								</dd>
-								
-								<!-- <dt>{% trans "Cliente" %}</dt>
-								<dd>{% trans "Aerolíneas Argentinas/Austral (Argentina)"%}</dd> -->
 								
 								<dt>{% trans "Duración" %}</dt>
 								<dd><ul><li>{{proyecto.getDescripcionDuracion}}</li></ul></dd>

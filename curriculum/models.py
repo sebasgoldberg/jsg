@@ -3,7 +3,8 @@ from django.db import models
 from django.utils.translation import ugettext
 from django.utils.translation import ugettext_lazy as _
 import datetime
-
+from imagekit.models import ImageSpecField
+from imagekit.processors import ResizeToFill, Adjust
 
 MODALIDAD_FULL_TIME = 0
 MODALIDAD_FREELANCE = 1
@@ -72,6 +73,8 @@ class Proyecto(models.Model):
 
     img = models.ImageField(verbose_name=_(u'Imagen'), 
                                upload_to='proyectos/', blank=False)
+    thumbnail = ImageSpecField([Adjust(contrast=1.2, sharpness=1.1), ResizeToFill(100,100)],
+        source='img', format='JPEG', options={'quality': 90})
 
     def __unicode__(self):
         return self.titulo
@@ -95,6 +98,9 @@ class AreaTecnica(models.Model):
 
     def __unicode__(self):
         return self.descripcion
+
+    class Meta:
+      ordering = ['descripcion', ]
 
 
 class TareaProyecto(models.Model):

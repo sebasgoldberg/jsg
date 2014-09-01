@@ -81,10 +81,10 @@ class Proyecto(models.Model):
     
     def getDescripcionDuracion(self):
         if self.enCurso:
-            fechaHasta = datetime.date.today()
+            fechaHasta = _(u'Fecha actual')
         else:
-            fechaHasta = self.fechaHasta
-        return _(u'%s a %s') % (self.fechaDesde.strftime("%Y/%m"), fechaHasta.strftime("%Y/%m"))
+            fechaHasta = self.fechaHasta.strftime("%Y/%m")
+        return _(u'%s a %s') % (self.fechaDesde.strftime("%Y/%m"), fechaHasta)
 
     def getDescripcionModalidad(self):
         return DICT_MODALIDAD[self.modalidad]

@@ -45,6 +45,10 @@ class TipoProyecto(models.Model):
     def __unicode__(self):
         return self.descripcion
 
+    def get_proyectos_ordenados_por_fecha(self):
+        for proyecto in self.proyecto_set.all().order_by('-fechaDesde'):
+            yield proyecto
+
 class Proyecto(models.Model):
     titulo = models.CharField(max_length=100, verbose_name=_(u'Título'), 
                               unique=True)

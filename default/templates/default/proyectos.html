@@ -23,7 +23,7 @@
 			{% for tipoProyecto in tipoProyectos %}
 				<div class="proyectos-por-tipo">
 					<a id='tipo-proyecto-{{tipoProyecto.id}}'><h1>{% trans "Proyectos" %} {{tipoProyecto.descripcion}}</h1></a>
-					{%for proyecto in tipoProyecto.proyecto_set.all%}
+					{%for proyecto in tipoProyecto.get_proyectos_ordenados_por_fecha %}
 					<li class="proyecto">
 							<div>
 								<a href="#" data-toggle="modal" data-target="#myModal{{proyecto.id}}">

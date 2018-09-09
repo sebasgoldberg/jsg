@@ -5,6 +5,7 @@ from django.utils.translation import ugettext_lazy as _
 import datetime
 from imagekit.models import ImageSpecField
 from imagekit.processors import ResizeToFill, Adjust
+from django.utils.timezone import now
 
 MODALIDAD_FULL_TIME = 0
 MODALIDAD_FREELANCE = 1
@@ -21,28 +22,28 @@ class Empresa(models.Model):
     nombre = models.CharField(max_length=100, verbose_name=_(u'Nombre'), 
                               unique=True)
 
-    def __unicode__(self):
+    def __str__(self):
         return self.nombre
 
 class Idioma(models.Model):
     descripcion = models.CharField(max_length=100, verbose_name=_(u'Descripción'), 
                               unique=True)
 
-    def __unicode__(self):
+    def __str__(self):
         return self.descripcion
 
 class Pais(models.Model):
     descripcion = models.CharField(max_length=100, verbose_name=_(u'Descripción'), 
                               unique=True)
 
-    def __unicode__(self):
+    def __str__(self):
         return self.descripcion
 
 class TipoProyecto(models.Model):
     descripcion = models.CharField(max_length=100, verbose_name=_(u'Descripción'), 
                               unique=True)
 
-    def __unicode__(self):
+    def __str__(self):
         return self.descripcion
 
     def get_proyectos_ordenados_por_fecha(self):
@@ -57,13 +58,13 @@ class Proyecto(models.Model):
  
     fechaDesde = models.DateField( verbose_name=_(u'Fecha desde'),
                                           null=False, blank=False, 
-                                          default=datetime.datetime.now())
+                                          default=now)
     enCurso = models.BooleanField(default=False, 
                                   verbose_name=_(u'En curso'))
 
     fechaHasta = models.DateField( verbose_name=_(u'Fecha hasta'),
                                           null=True, blank=True,
-                                          default=datetime.datetime.now())
+                                          default=now)
 
     idioma = models.ForeignKey(Idioma, verbose_name=_(u'Idioma'), null=True, blank=False)
  
@@ -80,7 +81,7 @@ class Proyecto(models.Model):
     thumbnail = ImageSpecField([Adjust(contrast=1.2, sharpness=1.1), ResizeToFill(100,100)],
         source='img', format='JPEG', options={'quality': 90})
 
-    def __unicode__(self):
+    def __str__(self):
         return self.titulo
     
     def getDescripcionDuracion(self):
@@ -100,7 +101,7 @@ class AreaTecnica(models.Model):
     descripcion = models.CharField(max_length=100, verbose_name=_(u'Descripción'), 
                               unique=True)
 
-    def __unicode__(self):
+    def __str__(self):
         return self.descripcion
 
     class Meta:
@@ -112,6 +113,6 @@ class TareaProyecto(models.Model):
     areas = models.ManyToManyField(AreaTecnica, blank=True, verbose_name=_(u'Areas'))
     descripcion = models.TextField(blank=True, verbose_name=_(u'Descripción'))
 
-    def __unicode__(self):
+    def __str__(self):
         return self.descripcion
 

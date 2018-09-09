@@ -16,3 +16,4 @@ db.sqlite3
 .settings
 upload.sh
 environment.py
+*.un~

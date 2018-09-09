@@ -1,0 +1,2325 @@
+[
+{
+  "model": "curriculum.empresa",
+  "pk": 1,
+  "fields": {
+    "nombre": "Hublance"
+  }
+},
+{
+  "model": "curriculum.empresa",
+  "pk": 2,
+  "fields": {
+    "nombre": "Deloitte"
+  }
+},
+{
+  "model": "curriculum.empresa",
+  "pk": 3,
+  "fields": {
+    "nombre": "Aerol\u00edneas Argentinas"
+  }
+},
+{
+  "model": "curriculum.empresa",
+  "pk": 4,
+  "fields": {
+    "nombre": "My Partner SAP"
+  }
+},
+{
+  "model": "curriculum.empresa",
+  "pk": 5,
+  "fields": {
+    "nombre": "Ditransa"
+  }
+},
+{
+  "model": "curriculum.empresa",
+  "pk": 6,
+  "fields": {
+    "nombre": "Neoris"
+  }
+},
+{
+  "model": "curriculum.empresa",
+  "pk": 7,
+  "fields": {
+    "nombre": "Cencosud"
+  }
+},
+{
+  "model": "curriculum.empresa",
+  "pk": 8,
+  "fields": {
+    "nombre": "Bancolombia"
+  }
+},
+{
+  "model": "curriculum.empresa",
+  "pk": 9,
+  "fields": {
+    "nombre": "TD Banking"
+  }
+},
+{
+  "model": "curriculum.empresa",
+  "pk": 10,
+  "fields": {
+    "nombre": "La Brea Bakery"
+  }
+},
+{
+  "model": "curriculum.empresa",
+  "pk": 11,
+  "fields": {
+    "nombre": "SAP Latin America Global Delivery Center"
+  }
+},
+{
+  "model": "curriculum.empresa",
+  "pk": 12,
+  "fields": {
+    "nombre": "Department of Education and Training"
+  }
+},
+{
+  "model": "curriculum.empresa",
+  "pk": 13,
+  "fields": {
+    "nombre": "Chedraui"
+  }
+},
+{
+  "model": "curriculum.empresa",
+  "pk": 14,
+  "fields": {
+    "nombre": "TGV"
+  }
+},
+{
+  "model": "curriculum.empresa",
+  "pk": 15,
+  "fields": {
+    "nombre": "YEL"
+  }
+},
+{
+  "model": "curriculum.empresa",
+  "pk": 16,
+  "fields": {
+    "nombre": "DISCO"
+  }
+},
+{
+  "model": "curriculum.empresa",
+  "pk": 17,
+  "fields": {
+    "nombre": "Coca Cola FEMSA"
+  }
+},
+{
+  "model": "curriculum.empresa",
+  "pk": 18,
+  "fields": {
+    "nombre": "Agencia Alternativa"
+  }
+},
+{
+  "model": "curriculum.empresa",
+  "pk": 19,
+  "fields": {
+    "nombre": "Osdepym"
+  }
+},
+{
+  "model": "curriculum.empresa",
+  "pk": 20,
+  "fields": {
+    "nombre": "TRK"
+  }
+},
+{
+  "model": "curriculum.empresa",
+  "pk": 21,
+  "fields": {
+    "nombre": "QUIEROVALE 4"
+  }
+},
+{
+  "model": "curriculum.empresa",
+  "pk": 22,
+  "fields": {
+    "nombre": "Macchi - Husni"
+  }
+},
+{
+  "model": "curriculum.empresa",
+  "pk": 23,
+  "fields": {
+    "nombre": "Cognizant"
+  }
+},
+{
+  "model": "curriculum.empresa",
+  "pk": 24,
+  "fields": {
+    "nombre": "Kimberly Clark"
+  }
+},
+{
+  "model": "curriculum.empresa",
+  "pk": 25,
+  "fields": {
+    "nombre": "Cencosud Brasil"
+  }
+},
+{
+  "model": "curriculum.idioma",
+  "pk": 1,
+  "fields": {
+    "descripcion": "Espa\u00f1ol"
+  }
+},
+{
+  "model": "curriculum.idioma",
+  "pk": 2,
+  "fields": {
+    "descripcion": "Ingles"
+  }
+},
+{
+  "model": "curriculum.idioma",
+  "pk": 3,
+  "fields": {
+    "descripcion": "Portugu\u00e9s"
+  }
+},
+{
+  "model": "curriculum.pais",
+  "pk": 1,
+  "fields": {
+    "descripcion": "Argentina"
+  }
+},
+{
+  "model": "curriculum.pais",
+  "pk": 2,
+  "fields": {
+    "descripcion": "Colombia"
+  }
+},
+{
+  "model": "curriculum.pais",
+  "pk": 3,
+  "fields": {
+    "descripcion": "Peru"
+  }
+},
+{
+  "model": "curriculum.pais",
+  "pk": 4,
+  "fields": {
+    "descripcion": "Canada"
+  }
+},
+{
+  "model": "curriculum.pais",
+  "pk": 5,
+  "fields": {
+    "descripcion": "Irlanda"
+  }
+},
+{
+  "model": "curriculum.pais",
+  "pk": 6,
+  "fields": {
+    "descripcion": "Australia"
+  }
+},
+{
+  "model": "curriculum.pais",
+  "pk": 7,
+  "fields": {
+    "descripcion": "Mejico"
+  }
+},
+{
+  "model": "curriculum.pais",
+  "pk": 8,
+  "fields": {
+    "descripcion": "Brasil"
+  }
+},
+{
+  "model": "curriculum.pais",
+  "pk": 9,
+  "fields": {
+    "descripcion": "USA"
+  }
+},
+{
+  "model": "curriculum.tipoproyecto",
+  "pk": 1,
+  "fields": {
+    "descripcion": "SAP"
+  }
+},
+{
+  "model": "curriculum.tipoproyecto",
+  "pk": 2,
+  "fields": {
+    "descripcion": "WEB"
+  }
+},
+{
+  "model": "curriculum.tipoproyecto",
+  "pk": 3,
+  "fields": {
+    "descripcion": "Delphi"
+  }
+},
+{
+  "model": "curriculum.tipoproyecto",
+  "pk": 4,
+  "fields": {
+    "descripcion": "Otros"
+  }
+},
+{
+  "model": "curriculum.proyecto",
+  "pk": 1,
+  "fields": {
+    "titulo": "Destino SAP",
+    "tipo": 1,
+    "fechaDesde": "2013-09-01",
+    "enCurso": false,
+    "fechaHasta": "2014-08-01",
+    "idioma": 1,
+    "pais": 1,
+    "modalidad": 0,
+    "img": "proyectos/Aerolineas_Argentinas.png",
+    "empresas": [
+      1,
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "curriculum.proyecto",
+  "pk": 2,
+  "fields": {
+    "titulo": "Ditransa",
+    "tipo": 1,
+    "fechaDesde": "2013-08-01",
+    "enCurso": false,
+    "fechaHasta": "2014-04-01",
+    "idioma": 1,
+    "pais": 2,
+    "modalidad": 1,
+    "img": "proyectos/ditransa_2.jpg",
+    "empresas": [
+      4,
+      5
+    ]
+  }
+},
+{
+  "model": "curriculum.proyecto",
+  "pk": 3,
+  "fields": {
+    "titulo": "FICOPERU",
+    "tipo": 1,
+    "fechaDesde": "2013-03-01",
+    "enCurso": false,
+    "fechaHasta": "2013-08-01",
+    "idioma": 1,
+    "pais": 3,
+    "modalidad": 0,
+    "img": "proyectos/cencosud_1.jpg",
+    "empresas": [
+      6,
+      7
+    ]
+  }
+},
+{
+  "model": "curriculum.proyecto",
+  "pk": 4,
+  "fields": {
+    "titulo": "CRM Productos I",
+    "tipo": 1,
+    "fechaDesde": "2012-01-01",
+    "enCurso": false,
+    "fechaHasta": "2013-02-01",
+    "idioma": 1,
+    "pais": 2,
+    "modalidad": 0,
+    "img": "proyectos/Bancolombia_2.jpg",
+    "empresas": [
+      1,
+      2,
+      8
+    ]
+  }
+},
+{
+  "model": "curriculum.proyecto",
+  "pk": 5,
+  "fields": {
+    "titulo": "TD Passport",
+    "tipo": 1,
+    "fechaDesde": "2011-08-01",
+    "enCurso": false,
+    "fechaHasta": "2011-12-01",
+    "idioma": 2,
+    "pais": 4,
+    "modalidad": 0,
+    "img": "proyectos/TDBank_1.jpg",
+    "empresas": [
+      1,
+      2,
+      9
+    ]
+  }
+},
+{
+  "model": "curriculum.proyecto",
+  "pk": 6,
+  "fields": {
+    "titulo": "INNOVA",
+    "tipo": 1,
+    "fechaDesde": "2010-08-01",
+    "enCurso": false,
+    "fechaHasta": "2011-07-01",
+    "idioma": 1,
+    "pais": 2,
+    "modalidad": 0,
+    "img": "proyectos/Bancolombia_3.jpg",
+    "empresas": [
+      1,
+      2,
+      8
+    ]
+  }
+},
+{
+  "model": "curriculum.proyecto",
+  "pk": 7,
+  "fields": {
+    "titulo": "La Brea",
+    "tipo": 1,
+    "fechaDesde": "2010-07-01",
+    "enCurso": false,
+    "fechaHasta": "2010-08-01",
+    "idioma": 2,
+    "pais": 5,
+    "modalidad": 0,
+    "img": "proyectos/La_Brea_Bakery_1.png",
+    "empresas": [
+      1,
+      2,
+      10
+    ]
+  }
+},
+{
+  "model": "curriculum.proyecto",
+  "pk": 8,
+  "fields": {
+    "titulo": "DET",
+    "tipo": 1,
+    "fechaDesde": "2010-04-01",
+    "enCurso": false,
+    "fechaHasta": "2010-06-01",
+    "idioma": 2,
+    "pais": 6,
+    "modalidad": 0,
+    "img": "proyectos/DET_1.png",
+    "empresas": [
+      11,
+      12
+    ]
+  }
+},
+{
+  "model": "curriculum.proyecto",
+  "pk": 9,
+  "fields": {
+    "titulo": "Chedraui",
+    "tipo": 1,
+    "fechaDesde": "2010-02-01",
+    "enCurso": false,
+    "fechaHasta": "2010-04-01",
+    "idioma": 1,
+    "pais": 7,
+    "modalidad": 0,
+    "img": "proyectos/Chedraui.png",
+    "empresas": [
+      11,
+      13
+    ]
+  }
+},
+{
+  "model": "curriculum.proyecto",
+  "pk": 10,
+  "fields": {
+    "titulo": "Mant. SAP DISCO",
+    "tipo": 1,
+    "fechaDesde": "2006-11-01",
+    "enCurso": false,
+    "fechaHasta": "2010-02-01",
+    "idioma": 1,
+    "pais": 1,
+    "modalidad": 0,
+    "img": "proyectos/Disco.png",
+    "empresas": [
+      7,
+      14,
+      15,
+      16
+    ]
+  }
+},
+{
+  "model": "curriculum.proyecto",
+  "pk": 11,
+  "fields": {
+    "titulo": "DISAP",
+    "tipo": 1,
+    "fechaDesde": "2006-03-01",
+    "enCurso": false,
+    "fechaHasta": "2006-10-01",
+    "idioma": 1,
+    "pais": 1,
+    "modalidad": 0,
+    "img": "proyectos/Disco_1.png",
+    "empresas": [
+      14,
+      16
+    ]
+  }
+},
+{
+  "model": "curriculum.proyecto",
+  "pk": 12,
+  "fields": {
+    "titulo": "Coca Cola FEMSA ",
+    "tipo": 1,
+    "fechaDesde": "2006-01-01",
+    "enCurso": false,
+    "fechaHasta": "2006-02-01",
+    "idioma": 1,
+    "pais": 1,
+    "modalidad": 0,
+    "img": "proyectos/Coca_Cola.png",
+    "empresas": [
+      14,
+      17
+    ]
+  }
+},
+{
+  "model": "curriculum.proyecto",
+  "pk": 13,
+  "fields": {
+    "titulo": "Homolog. de Procesos",
+    "tipo": 1,
+    "fechaDesde": "2005-06-01",
+    "enCurso": false,
+    "fechaHasta": "2005-12-01",
+    "idioma": 1,
+    "pais": 1,
+    "modalidad": 0,
+    "img": "proyectos/Coca_Cola_1.png",
+    "empresas": [
+      14,
+      17
+    ]
+  }
+},
+{
+  "model": "curriculum.proyecto",
+  "pk": 14,
+  "fields": {
+    "titulo": "Agencia Alternativa",
+    "tipo": 2,
+    "fechaDesde": "2012-11-01",
+    "enCurso": true,
+    "fechaHasta": null,
+    "idioma": 3,
+    "pais": 8,
+    "modalidad": 1,
+    "img": "proyectos/Alternativa.png",
+    "empresas": [
+      18
+    ]
+  }
+},
+{
+  "model": "curriculum.proyecto",
+  "pk": 15,
+  "fields": {
+    "titulo": "Osdepym",
+    "tipo": 3,
+    "fechaDesde": "2008-01-01",
+    "enCurso": false,
+    "fechaHasta": "2011-09-01",
+    "idioma": 1,
+    "pais": 1,
+    "modalidad": 1,
+    "img": "proyectos/osdepym.png",
+    "empresas": [
+      19
+    ]
+  }
+},
+{
+  "model": "curriculum.proyecto",
+  "pk": 16,
+  "fields": {
+    "titulo": "TRK",
+    "tipo": 2,
+    "fechaDesde": "2007-10-01",
+    "enCurso": false,
+    "fechaHasta": "2008-01-01",
+    "idioma": 1,
+    "pais": 1,
+    "modalidad": 1,
+    "img": "proyectos/trk.png",
+    "empresas": [
+      20,
+      21
+    ]
+  }
+},
+{
+  "model": "curriculum.proyecto",
+  "pk": 17,
+  "fields": {
+    "titulo": "Macchi - Husni",
+    "tipo": 4,
+    "fechaDesde": "2001-01-01",
+    "enCurso": false,
+    "fechaHasta": "2001-07-01",
+    "idioma": 1,
+    "pais": 1,
+    "modalidad": 0,
+    "img": "proyectos/husni-macchi.png",
+    "empresas": [
+      22
+    ]
+  }
+},
+{
+  "model": "curriculum.proyecto",
+  "pk": 18,
+  "fields": {
+    "titulo": "Kimberly Clark",
+    "tipo": 1,
+    "fechaDesde": "2014-10-08",
+    "enCurso": false,
+    "fechaHasta": "2015-04-15",
+    "idioma": 2,
+    "pais": 9,
+    "modalidad": 0,
+    "img": "proyectos/KCC.png",
+    "empresas": [
+      23,
+      24
+    ]
+  }
+},
+{
+  "model": "curriculum.proyecto",
+  "pk": 19,
+  "fields": {
+    "titulo": "Cencosud Brasil",
+    "tipo": 1,
+    "fechaDesde": "2015-06-01",
+    "enCurso": true,
+    "fechaHasta": "2015-12-15",
+    "idioma": 3,
+    "pais": 8,
+    "modalidad": 0,
+    "img": "proyectos/cencosud_100.jpg",
+    "empresas": [
+      25
+    ]
+  }
+},
+{
+  "model": "curriculum.areatecnica",
+  "pk": 1,
+  "fields": {
+    "descripcion": "Framework"
+  }
+},
+{
+  "model": "curriculum.areatecnica",
+  "pk": 2,
+  "fields": {
+    "descripcion": "Web Dynpro ABAP"
+  }
+},
+{
+  "model": "curriculum.areatecnica",
+  "pk": 3,
+  "fields": {
+    "descripcion": "Interfaz"
+  }
+},
+{
+  "model": "curriculum.areatecnica",
+  "pk": 4,
+  "fields": {
+    "descripcion": "CRM Web GUI"
+  }
+},
+{
+  "model": "curriculum.areatecnica",
+  "pk": 5,
+  "fields": {
+    "descripcion": "Reporte"
+  }
+},
+{
+  "model": "curriculum.areatecnica",
+  "pk": 6,
+  "fields": {
+    "descripcion": "Workflow"
+  }
+},
+{
+  "model": "curriculum.areatecnica",
+  "pk": 7,
+  "fields": {
+    "descripcion": "Enhancement"
+  }
+},
+{
+  "model": "curriculum.areatecnica",
+  "pk": 8,
+  "fields": {
+    "descripcion": "SAP Notes"
+  }
+},
+{
+  "model": "curriculum.areatecnica",
+  "pk": 9,
+  "fields": {
+    "descripcion": "Banking"
+  }
+},
+{
+  "model": "curriculum.areatecnica",
+  "pk": 10,
+  "fields": {
+    "descripcion": "Carga Inicial"
+  }
+},
+{
+  "model": "curriculum.areatecnica",
+  "pk": 11,
+  "fields": {
+    "descripcion": "HCM"
+  }
+},
+{
+  "model": "curriculum.areatecnica",
+  "pk": 12,
+  "fields": {
+    "descripcion": "Smartform"
+  }
+},
+{
+  "model": "curriculum.areatecnica",
+  "pk": 13,
+  "fields": {
+    "descripcion": "RFC"
+  }
+},
+{
+  "model": "curriculum.areatecnica",
+  "pk": 14,
+  "fields": {
+    "descripcion": "Extractor BW"
+  }
+},
+{
+  "model": "curriculum.areatecnica",
+  "pk": 15,
+  "fields": {
+    "descripcion": "QA"
+  }
+},
+{
+  "model": "curriculum.areatecnica",
+  "pk": 16,
+  "fields": {
+    "descripcion": "FI"
+  }
+},
+{
+  "model": "curriculum.areatecnica",
+  "pk": 17,
+  "fields": {
+    "descripcion": "SD"
+  }
+},
+{
+  "model": "curriculum.areatecnica",
+  "pk": 18,
+  "fields": {
+    "descripcion": "MM"
+  }
+},
+{
+  "model": "curriculum.areatecnica",
+  "pk": 19,
+  "fields": {
+    "descripcion": "Management"
+  }
+},
+{
+  "model": "curriculum.areatecnica",
+  "pk": 20,
+  "fields": {
+    "descripcion": "Retail"
+  }
+},
+{
+  "model": "curriculum.areatecnica",
+  "pk": 21,
+  "fields": {
+    "descripcion": "Base"
+  }
+},
+{
+  "model": "curriculum.areatecnica",
+  "pk": 22,
+  "fields": {
+    "descripcion": "IDOC"
+  }
+},
+{
+  "model": "curriculum.areatecnica",
+  "pk": 23,
+  "fields": {
+    "descripcion": "An\u00e1lisis de Performance"
+  }
+},
+{
+  "model": "curriculum.areatecnica",
+  "pk": 24,
+  "fields": {
+    "descripcion": "Archiving"
+  }
+},
+{
+  "model": "curriculum.areatecnica",
+  "pk": 25,
+  "fields": {
+    "descripcion": "CO"
+  }
+},
+{
+  "model": "curriculum.areatecnica",
+  "pk": 26,
+  "fields": {
+    "descripcion": "OOP"
+  }
+},
+{
+  "model": "curriculum.areatecnica",
+  "pk": 27,
+  "fields": {
+    "descripcion": "LSMW"
+  }
+},
+{
+  "model": "curriculum.areatecnica",
+  "pk": 28,
+  "fields": {
+    "descripcion": "AA"
+  }
+},
+{
+  "model": "curriculum.areatecnica",
+  "pk": 29,
+  "fields": {
+    "descripcion": "PM"
+  }
+},
+{
+  "model": "curriculum.areatecnica",
+  "pk": 30,
+  "fields": {
+    "descripcion": "PP"
+  }
+},
+{
+  "model": "curriculum.areatecnica",
+  "pk": 31,
+  "fields": {
+    "descripcion": "Linux"
+  }
+},
+{
+  "model": "curriculum.areatecnica",
+  "pk": 32,
+  "fields": {
+    "descripcion": "Configuraci\u00f3n DNS"
+  }
+},
+{
+  "model": "curriculum.areatecnica",
+  "pk": 33,
+  "fields": {
+    "descripcion": "BASH"
+  }
+},
+{
+  "model": "curriculum.areatecnica",
+  "pk": 34,
+  "fields": {
+    "descripcion": "Python"
+  }
+},
+{
+  "model": "curriculum.areatecnica",
+  "pk": 35,
+  "fields": {
+    "descripcion": "DJANGO"
+  }
+},
+{
+  "model": "curriculum.areatecnica",
+  "pk": 36,
+  "fields": {
+    "descripcion": "HTML"
+  }
+},
+{
+  "model": "curriculum.areatecnica",
+  "pk": 37,
+  "fields": {
+    "descripcion": "CSS"
+  }
+},
+{
+  "model": "curriculum.areatecnica",
+  "pk": 38,
+  "fields": {
+    "descripcion": "Javascript"
+  }
+},
+{
+  "model": "curriculum.areatecnica",
+  "pk": 39,
+  "fields": {
+    "descripcion": "JQuery"
+  }
+},
+{
+  "model": "curriculum.areatecnica",
+  "pk": 40,
+  "fields": {
+    "descripcion": "Test Driven Development"
+  }
+},
+{
+  "model": "curriculum.areatecnica",
+  "pk": 41,
+  "fields": {
+    "descripcion": "Apache"
+  }
+},
+{
+  "model": "curriculum.areatecnica",
+  "pk": 42,
+  "fields": {
+    "descripcion": "Delphi"
+  }
+},
+{
+  "model": "curriculum.areatecnica",
+  "pk": 43,
+  "fields": {
+    "descripcion": "Pascal"
+  }
+},
+{
+  "model": "curriculum.areatecnica",
+  "pk": 44,
+  "fields": {
+    "descripcion": "Microsoft SQLServer"
+  }
+},
+{
+  "model": "curriculum.areatecnica",
+  "pk": 45,
+  "fields": {
+    "descripcion": "PHP"
+  }
+},
+{
+  "model": "curriculum.areatecnica",
+  "pk": 46,
+  "fields": {
+    "descripcion": "MySQL"
+  }
+},
+{
+  "model": "curriculum.areatecnica",
+  "pk": 47,
+  "fields": {
+    "descripcion": "WAMP"
+  }
+},
+{
+  "model": "curriculum.areatecnica",
+  "pk": 48,
+  "fields": {
+    "descripcion": "Autocad"
+  }
+},
+{
+  "model": "curriculum.areatecnica",
+  "pk": 49,
+  "fields": {
+    "descripcion": "SCM"
+  }
+},
+{
+  "model": "curriculum.areatecnica",
+  "pk": 50,
+  "fields": {
+    "descripcion": "Arquitectura"
+  }
+},
+{
+  "model": "curriculum.areatecnica",
+  "pk": 51,
+  "fields": {
+    "descripcion": "UX"
+  }
+},
+{
+  "model": "curriculum.areatecnica",
+  "pk": 52,
+  "fields": {
+    "descripcion": "Solman"
+  }
+},
+{
+  "model": "curriculum.areatecnica",
+  "pk": 53,
+  "fields": {
+    "descripcion": "Fiori"
+  }
+},
+{
+  "model": "curriculum.areatecnica",
+  "pk": 54,
+  "fields": {
+    "descripcion": "SAP UI5"
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 1,
+  "fields": {
+    "proyecto": 1,
+    "descripcion": "Interfaz de usuario para carga de datos a ser enviados a IATA.",
+    "areas": [
+      26,
+      17,
+      2
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 2,
+  "fields": {
+    "proyecto": 1,
+    "descripcion": "Dise\u00f1o y desarrollo de framework para trabajar en forma gen\u00e9rica modelos de datos complejos. Framework aplicado para el modelo de datos IATA (compuesto por 27 tablas transaccionales Z).\r\n",
+    "areas": [
+      1,
+      26
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 3,
+  "fields": {
+    "proyecto": 1,
+    "descripcion": "Dise\u00f1o y desarrollo de framework para manejo del modelo de datos en forma gen\u00e9rica y su carga y guardado, hacia y desde los nodos de contexto de la WebDynpro.\r\n",
+    "areas": [
+      1,
+      26,
+      2
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 4,
+  "fields": {
+    "proyecto": 1,
+    "descripcion": "Ingreso y modificaci\u00f3n de \u00f3rdenes de vuelo.\r\n",
+    "areas": [
+      3,
+      26,
+      29
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 5,
+  "fields": {
+    "proyecto": 1,
+    "descripcion": "Creaci\u00f3n de operaciones de compra y consumo de combustible, catering, handling, tasas, hoteler\u00eda, transporte y vi\u00e1ticos a partir de hojas de ruta de flota y hojas de ruta de vuelo.",
+    "areas": [
+      3,
+      26,
+      29
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 6,
+  "fields": {
+    "proyecto": 2,
+    "descripcion": "Nuevo AB en pedidos ERP con opciones seg\u00fan tipo de veh\u00edculo (unas 70 opciones posibles).\r\n",
+    "areas": [
+      4,
+      26,
+      17
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 7,
+  "fields": {
+    "proyecto": 2,
+    "descripcion": "Nuevo AB en pedidos ERP para definici\u00f3n de distintas fechas l\u00edmite en pedidos por veh\u00edculo del pedido.\r\n",
+    "areas": [
+      4,
+      26,
+      17
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 8,
+  "fields": {
+    "proyecto": 2,
+    "descripcion": "Traspaso de informaci\u00f3n en AB de fechas l\u00edmite a documentos subsiguientes o a cabecera de pedido seg\u00fan clase de pedido.\r\n\r\n",
+    "areas": [
+      4,
+      26,
+      17
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 9,
+  "fields": {
+    "proyecto": 2,
+    "descripcion": "Copia de oferta desde modelo sin generar flujo de documentos y ajustando fechas a las del d\u00eda.",
+    "areas": [
+      4,
+      26,
+      17
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 10,
+  "fields": {
+    "proyecto": 2,
+    "descripcion": "En ERP: Obtenci\u00f3n de pedidos y sus correspondientes opciones ingresadas por el nuevo AB en CRM.\r\n",
+    "areas": [
+      26,
+      5,
+      17
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 11,
+  "fields": {
+    "proyecto": 2,
+    "descripcion": "En ERP: Obtenci\u00f3n de pedidos y sus correspondientes fechas l\u00edmites. Se asignan colores seg\u00fan tipos de vencimiento.\r\n",
+    "areas": [
+      26,
+      5,
+      17
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 12,
+  "fields": {
+    "proyecto": 2,
+    "descripcion": "En SCM: Asignaci\u00f3n de veh\u00edculos a centros, obtenci\u00f3n de datos de veh\u00edculos desde ERP, esquema de liberaci\u00f3n y autorizaci\u00f3n de veh\u00edculos. \r\n",
+    "areas": [
+      26,
+      5,
+      49
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 13,
+  "fields": {
+    "proyecto": 2,
+    "descripcion": "Autorizaci\u00f3n de veh\u00edculos para enturnamiento.",
+    "areas": [
+      26,
+      49,
+      6
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 14,
+  "fields": {
+    "proyecto": 3,
+    "descripcion": "Validaci\u00f3n ingreso acreedores.",
+    "areas": [
+      7,
+      16
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 15,
+  "fields": {
+    "proyecto": 3,
+    "descripcion": "Validaciones ingreso facturas.\r\n",
+    "areas": [
+      7,
+      16
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 16,
+  "fields": {
+    "proyecto": 3,
+    "descripcion": "Validaciones FI: Esquema de importes para contabilizaci\u00f3n de documentos.\r\n",
+    "areas": [
+      7,
+      16,
+      26
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 17,
+  "fields": {
+    "proyecto": 3,
+    "descripcion": "Traspaso de textos de cabecera de solicitud de pedido a orden de compra.\r\n",
+    "areas": [
+      7,
+      18
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 18,
+  "fields": {
+    "proyecto": 3,
+    "descripcion": "Bloqueo de recepciones para facturaci\u00f3n desde portal web a trav\u00e9s de IDOCs\r\n",
+    "areas": [
+      16,
+      22,
+      3,
+      26
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 19,
+  "fields": {
+    "proyecto": 3,
+    "descripcion": "Ingreso y contabilizaci\u00f3n de facturas desde sistema de backoffice\r\n",
+    "areas": [
+      16,
+      22,
+      3,
+      26
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 20,
+  "fields": {
+    "proyecto": 3,
+    "descripcion": "Pago a proveedores por medio de distintos bancos.\r\n",
+    "areas": [
+      16,
+      3,
+      26
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 21,
+  "fields": {
+    "proyecto": 4,
+    "descripcion": "Desarrollos y modificaciones en soluci\u00f3n CRM aplicando modelo CMMI-DEV.",
+    "areas": [
+      4,
+      15
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 22,
+  "fields": {
+    "proyecto": 4,
+    "descripcion": "BADI para definici\u00f3n y asignaci\u00f3n de clases de condiciones de precio.",
+    "areas": [
+      7,
+      17
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 23,
+  "fields": {
+    "proyecto": 4,
+    "descripcion": "Ampliaci\u00f3n de componentes est\u00e1ndares para adicionar columna de cliente en tabla de assigment block (interfaz WEB).\r\n",
+    "areas": [
+      4,
+      26
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 24,
+  "fields": {
+    "proyecto": 4,
+    "descripcion": "Verificaci\u00f3n de autorizaci\u00f3n de modificaci\u00f3n sobre documentos CRM\r\n",
+    "areas": [
+      4,
+      26
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 25,
+  "fields": {
+    "proyecto": 4,
+    "descripcion": "Re planificaci\u00f3n y anulaci\u00f3n de llamadas en Interaction Center.\r\n",
+    "areas": [
+      4,
+      26
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 26,
+  "fields": {
+    "proyecto": 4,
+    "descripcion": "An\u00e1lisis y soluci\u00f3n de errores luego de aplicaci\u00f3n de Support Package\r\n",
+    "areas": [
+      8
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 27,
+  "fields": {
+    "proyecto": 4,
+    "descripcion": "An\u00e1lisis de errores est\u00e1ndares y seguimiento de mensajes reportados a SAP.\r\n",
+    "areas": [
+      8
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 28,
+  "fields": {
+    "proyecto": 5,
+    "descripcion": "Desarrollos y modificaciones en soluci\u00f3n SAP Banking aplicando modelo CMMI-DEV.",
+    "areas": [
+      9,
+      15
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 29,
+  "fields": {
+    "proyecto": 5,
+    "descripcion": "Interfaces con PI para env\u00edo y recepci\u00f3n de transacciones bancarias con sistemas legacy (en forma sincr\u00f3nica o asincr\u00f3nica)\r\n",
+    "areas": [
+      9,
+      3
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 30,
+  "fields": {
+    "proyecto": 5,
+    "descripcion": "Ampliaciones a transacciones de mantenimiento de cuentas bancarias (implementadas con BADIs, exits, BTEs y BDTs).\r\n",
+    "areas": [
+      9,
+      7
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 31,
+  "fields": {
+    "proyecto": 5,
+    "descripcion": "Carga inicial de interlocutores comerciales aplicando BAPIs est\u00e1ndar.\r\n",
+    "areas": [
+      9,
+      10
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 32,
+  "fields": {
+    "proyecto": 5,
+    "descripcion": "Carga inicial de cuentas bancarias aplicando direct input.\r\n",
+    "areas": [
+      9,
+      10
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 33,
+  "fields": {
+    "proyecto": 5,
+    "descripcion": "Balance inicial de cuentas bancarias aplicando direct input.\r\n",
+    "areas": [
+      9,
+      10
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 34,
+  "fields": {
+    "proyecto": 5,
+    "descripcion": "Sucursales bancarias (desarrollo custom para creaci\u00f3n y actualizaci\u00f3n infotipos organizacionales)\r\n",
+    "areas": [
+      9,
+      10,
+      11,
+      26
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 35,
+  "fields": {
+    "proyecto": 6,
+    "descripcion": "Desarrollos y modificaciones en m\u00f3dulos FI, CRM, HCM aplicando modelo CMMI-DEV.",
+    "areas": [
+      4,
+      16,
+      11
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 36,
+  "fields": {
+    "proyecto": 6,
+    "descripcion": "Formularios Smartforms de descripci\u00f3n de puestos de empleado consumido por aplicaci\u00f3n WebDynpro for ABAP.",
+    "areas": [
+      11,
+      12,
+      2
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 37,
+  "fields": {
+    "proyecto": 6,
+    "descripcion": "Formularios Smartforms de contratos para distinto tipo de personal.",
+    "areas": [
+      11,
+      12
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 38,
+  "fields": {
+    "proyecto": 6,
+    "descripcion": "Aprobaci\u00f3n de puestos en unidades organizativas.",
+    "areas": [
+      11,
+      6
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 39,
+  "fields": {
+    "proyecto": 6,
+    "descripcion": "Cambios organizacionales con y sin cambio de salario.\r\n",
+    "areas": [
+      11,
+      6
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 40,
+  "fields": {
+    "proyecto": 6,
+    "descripcion": "Aprobaci\u00f3n de cambios en los datos del empleado.\r\n",
+    "areas": [
+      11,
+      6
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 41,
+  "fields": {
+    "proyecto": 6,
+    "descripcion": "Aprobaci\u00f3n de beneficios.\r\n",
+    "areas": [
+      11,
+      6
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 42,
+  "fields": {
+    "proyecto": 6,
+    "descripcion": "Realizaci\u00f3n de evaluaciones de personal\r\n",
+    "areas": [
+      11,
+      6
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 43,
+  "fields": {
+    "proyecto": 6,
+    "descripcion": "Actualizaci\u00f3n datos empleado en aplicaciones Web Dynpro for Java con llamadas a funciones ABAP RFC",
+    "areas": [
+      11,
+      13
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 44,
+  "fields": {
+    "proyecto": 6,
+    "descripcion": "Creaci\u00f3n de extractores en CRM para replicar en BW.",
+    "areas": [
+      4,
+      14
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 45,
+  "fields": {
+    "proyecto": 6,
+    "descripcion": "Revisi\u00f3n de desarrollos y documentaci\u00f3n.",
+    "areas": [
+      15
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 46,
+  "fields": {
+    "proyecto": 7,
+    "descripcion": "Desarrollos en m\u00f3dulos FI, SD, MM aplicando modelo CMMI-DEV.",
+    "areas": [
+      16,
+      18,
+      15,
+      17
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 47,
+  "fields": {
+    "proyecto": 8,
+    "descripcion": "Desarrollo de cada requrimiento siguiendo los lineamientos del QMS (Quality Management System) definido por SAP.",
+    "areas": [
+      15
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 48,
+  "fields": {
+    "proyecto": 8,
+    "descripcion": "Reportes ALV para sueldos y n\u00f3mina.",
+    "areas": [
+      11,
+      26,
+      5
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 49,
+  "fields": {
+    "proyecto": 8,
+    "descripcion": "Programa para lanzar eventos para instanciar workflows de aprobaci\u00f3n de incrementos de salario.",
+    "areas": [
+      11,
+      26,
+      6
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 50,
+  "fields": {
+    "proyecto": 8,
+    "descripcion": "Ampliaciones en sub m\u00f3dulo de carga de tiempos de trabajo.",
+    "areas": [
+      7,
+      11
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 51,
+  "fields": {
+    "proyecto": 9,
+    "descripcion": "Lider t\u00e9cnico y desarrollador.",
+    "areas": [
+      19
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 52,
+  "fields": {
+    "proyecto": 9,
+    "descripcion": "Desarrollo de cada requerimiento siguiendo los lineamientos del QMS (Quality Management System) definido por SAP.",
+    "areas": [
+      15
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 53,
+  "fields": {
+    "proyecto": 9,
+    "descripcion": "Desarrollo Interfaz de entrada para actualizaci\u00f3n de precios de competencia.",
+    "areas": [
+      3,
+      20
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 54,
+  "fields": {
+    "proyecto": 9,
+    "descripcion": "Ampliaci\u00f3n para actualizaci\u00f3n de fechas de entrega y de validez en tablas de asignaci\u00f3n para creaci\u00f3n de pedidos.",
+    "areas": [
+      7,
+      20
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 55,
+  "fields": {
+    "proyecto": 10,
+    "descripcion": "Encargado del mantenimiento t\u00e9cnico del sistema.",
+    "areas": [
+      19
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 56,
+  "fields": {
+    "proyecto": 10,
+    "descripcion": "Desarrollo de RFCs y configuraci\u00f3n de workflow est\u00e1ndares para proyecto de integraci\u00f3n entre Outlook y SAP para realizar la liberaci\u00f3n de documentos de compra.",
+    "areas": [
+      18,
+      26,
+      13,
+      6
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 57,
+  "fields": {
+    "proyecto": 10,
+    "descripcion": "Sistema de autorizaci\u00f3n de transportes con notificaciones v\u00eda mail.",
+    "areas": [
+      21,
+      26,
+      6
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 58,
+  "fields": {
+    "proyecto": 10,
+    "descripcion": "Sistema de control de IDOCs con notificaciones v\u00eda mail.",
+    "areas": [
+      22,
+      3
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 59,
+  "fields": {
+    "proyecto": 10,
+    "descripcion": "Desarrollo de repositorio de clases para agilizar los desarrollos en general. Ejemplos de estas clases son: envi\u00f3 de mails, manejo de jobs, manejo de archivos, manejo de pop-ups, env\u00edo de IDOCs, manejo de sets, generaci\u00f3n de juegos de datos, consultas de \u00edndices de archivos y de objetos archivados, etc.",
+    "areas": [
+      1,
+      26
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 60,
+  "fields": {
+    "proyecto": 10,
+    "descripcion": "Revisi\u00f3n de performance de programas Z. Manejo de transacciones para supervisar el funcionamiento de la base de datos, la carga del sistema, trace de aplicaciones, an\u00e1lisis de performance.",
+    "areas": [
+      23
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 61,
+  "fields": {
+    "proyecto": 10,
+    "descripcion": "Desarrollos workflow para automatizaci\u00f3n de procesos (utilizando objetos BOR y clases ABAP).",
+    "areas": [
+      26,
+      6
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 62,
+  "fields": {
+    "proyecto": 10,
+    "descripcion": "Implementaci\u00f3n del proyecto de archiving para los objetos FI_DOCUMNT, CO_ITEM, IDOC y EC_PCA_ITM (customizing y mejoras de programas Z).",
+    "areas": [
+      24,
+      25,
+      16,
+      26
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 63,
+  "fields": {
+    "proyecto": 10,
+    "descripcion": "Implementaci\u00f3n del proyecto de facturaci\u00f3n electr\u00f3nica utilizando como intermediaria a la empresa LEVICOM para el env\u00edo de facturas electr\u00f3nicas a la AFIP.",
+    "areas": [
+      16,
+      22,
+      3,
+      26,
+      17
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 64,
+  "fields": {
+    "proyecto": 10,
+    "descripcion": "Desarrollos m\u00faltiples de reportes utilizando ALV implementado con objetos.",
+    "areas": [
+      26,
+      5
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 65,
+  "fields": {
+    "proyecto": 11,
+    "descripcion": "Desarrollo y Configuraci\u00f3n de interfaces de entrada y salida para intercambio de informaci\u00f3n mediante IDOCs.",
+    "areas": [
+      22,
+      3
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 66,
+  "fields": {
+    "proyecto": 11,
+    "descripcion": "Construcci\u00f3n de programa para automatizaci\u00f3n de pagos a proveedores mediante el banco Galicia.",
+    "areas": [
+      9,
+      3,
+      26
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 67,
+  "fields": {
+    "proyecto": 11,
+    "descripcion": "Desarrollo del control de interfaces entrantes, con sistema de notificaci\u00f3n v\u00eda mail.",
+    "areas": [
+      3
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 68,
+  "fields": {
+    "proyecto": 11,
+    "descripcion": "Formularios SmartForms.",
+    "areas": [
+      12
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 70,
+  "fields": {
+    "proyecto": 11,
+    "descripcion": "Cargas Iniciales con LSMW.",
+    "areas": [
+      10,
+      27
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 71,
+  "fields": {
+    "proyecto": 12,
+    "descripcion": "Desarrollo de Pago a Proveedores por medio del Banco CITIBANK.",
+    "areas": [
+      16,
+      3
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 73,
+  "fields": {
+    "proyecto": 13,
+    "descripcion": "Tareas de an\u00e1lisis t\u00e9cnico, construcci\u00f3n, documentaci\u00f3n y pruebas. ",
+    "areas": [
+      15
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 74,
+  "fields": {
+    "proyecto": 13,
+    "descripcion": "Participaci\u00f3n en m\u00f3dulos: AA FI, MM, PM, PP.",
+    "areas": [
+      28,
+      16,
+      18,
+      29,
+      30
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 75,
+  "fields": {
+    "proyecto": 14,
+    "descripcion": "Instalaci\u00f3n  del servidor LINUX que aloja la aplicaci\u00f3n WEB de administraci\u00f3n junto con el site de la agencia en una PC del cliente.",
+    "areas": [
+      31
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 76,
+  "fields": {
+    "proyecto": 14,
+    "descripcion": "Configuraci\u00f3n de DNS din\u00e1micos y redireccionamiento de puertos est\u00e1ndares bloqueados por ISP.",
+    "areas": [
+      32
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 77,
+  "fields": {
+    "proyecto": 14,
+    "descripcion": "Configuraci\u00f3n del servidor WEB para ofrecer protocolo HTTP seguro (HTTPS).",
+    "areas": [
+      41,
+      31
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 78,
+  "fields": {
+    "proyecto": 14,
+    "descripcion": "Desarrollo de script de instalaci\u00f3n de la aplicaci\u00f3n (incluye instalaci\u00f3n de todos los paquetes utilizados por la aplicaci\u00f3n, framework DJANGO, generaci\u00f3n autom\u00e1tica de certificados).",
+    "areas": [
+      33,
+      35,
+      31,
+      34
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 79,
+  "fields": {
+    "proyecto": 14,
+    "descripcion": "Desarrollo del site de la agencia utilizando el framework DJANGO.",
+    "areas": [
+      37,
+      36,
+      39,
+      38
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 80,
+  "fields": {
+    "proyecto": 14,
+    "descripcion": "Desarrollo de la administraci\u00f3n utilizando el framework DJANGO.",
+    "areas": [
+      35,
+      34
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 81,
+  "fields": {
+    "proyecto": 14,
+    "descripcion": "Desarrollo de comandos de consola DJANGO para migraci\u00f3n de datos de aplicaci\u00f3n existente a nueva aplicaci\u00f3n.",
+    "areas": [
+      10,
+      35,
+      34
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 82,
+  "fields": {
+    "proyecto": 14,
+    "descripcion": "Automatizaci\u00f3n de pruebas.",
+    "areas": [
+      35,
+      34,
+      40
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 83,
+  "fields": {
+    "proyecto": 15,
+    "descripcion": "Cotizaci\u00f3n de pedidos.",
+    "areas": [
+      19
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 84,
+  "fields": {
+    "proyecto": 15,
+    "descripcion": "An\u00e1lisis t\u00e9cnico, construcci\u00f3n, documentaci\u00f3n y pruebas de programas realizados en Delphi 5.0.",
+    "areas": [
+      42,
+      43,
+      15
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 85,
+  "fields": {
+    "proyecto": 15,
+    "descripcion": "Utilizaci\u00f3n de base de datos SQL Server 2000.",
+    "areas": [
+      44
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 86,
+  "fields": {
+    "proyecto": 15,
+    "descripcion": "Construcci\u00f3n de aplicaci\u00f3n de automatizaci\u00f3n de puesta en l\u00ednea de desarrollos v\u00eda mail.",
+    "areas": [
+      42,
+      44,
+      43
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 87,
+  "fields": {
+    "proyecto": 16,
+    "descripcion": "Desarrollo en PHP.",
+    "areas": [
+      45
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 88,
+  "fields": {
+    "proyecto": 16,
+    "descripcion": "Acceso a bases de datos MySQL y SQL Server.",
+    "areas": [
+      44,
+      46
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 89,
+  "fields": {
+    "proyecto": 16,
+    "descripcion": "Carrito de compra con notificaci\u00f3n v\u00eda mail.",
+    "areas": [
+      45
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 90,
+  "fields": {
+    "proyecto": 16,
+    "descripcion": "Manejo de sesiones de usuario.",
+    "areas": [
+      45
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 91,
+  "fields": {
+    "proyecto": 16,
+    "descripcion": "Configuraci\u00f3n del ambiente de pruebas.",
+    "areas": [
+      44,
+      46,
+      45,
+      47
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 92,
+  "fields": {
+    "proyecto": 16,
+    "descripcion": "Integraci\u00f3n del servidor WEB con la base de datos del cliente.",
+    "areas": [
+      44,
+      46,
+      45
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 93,
+  "fields": {
+    "proyecto": 17,
+    "descripcion": "Replanteos estructurales.",
+    "areas": [
+      48
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 94,
+  "fields": {
+    "proyecto": 17,
+    "descripcion": "Planillas de doblado de armaduras de hormig\u00f3n armado.",
+    "areas": [
+      48
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 95,
+  "fields": {
+    "proyecto": 18,
+    "descripcion": "Correcciones en Workflow de actualizaci\u00f3n de orden de compra.",
+    "areas": [
+      18,
+      6
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 96,
+  "fields": {
+    "proyecto": 18,
+    "descripcion": "Correcciones en configuraci\u00f3n para totalizado en avisos de pago.",
+    "areas": [
+      16,
+      5
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 97,
+  "fields": {
+    "proyecto": 18,
+    "descripcion": "Correcci\u00f3n de validaciones sobre modificaciones masivas en documentos para manejo de disputas.",
+    "areas": [
+      7,
+      18
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 98,
+  "fields": {
+    "proyecto": 18,
+    "descripcion": "LSMW para carga de textos y sus traducciones en cuentas GL.",
+    "areas": [
+      10,
+      16,
+      27
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 99,
+  "fields": {
+    "proyecto": 19,
+    "descripcion": "Revisi\u00f3n de propuestas de soluci\u00f3n y especificaciones funcionales para el ambiente de SAP Retail y WMS, verificando adherencia del dise\u00f1o con el modelo de negocio.",
+    "areas": [
+      50,
+      52
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 100,
+  "fields": {
+    "proyecto": 19,
+    "descripcion": "Definici\u00f3n de componentes reutilizables para generar capa est\u00e1ndar para acceso al modelo de dominio espec\u00edfico de Cencosud Brasil.",
+    "areas": [
+      50,
+      20
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 101,
+  "fields": {
+    "proyecto": 19,
+    "descripcion": "Investigaci\u00f3n de mejora de experiencia de usuario comparando los siguientes productos: SAP Fiori (SAPUI5), SAP Screen Personas, SAP WebDynpro.",
+    "areas": [
+      53,
+      54,
+      51,
+      2
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 102,
+  "fields": {
+    "proyecto": 19,
+    "descripcion": "POC para realizar la liberaci\u00f3n de solicitudes de pedido y \u00f3rdenes de compra utilizando SAP Fiori e integr\u00e1ndolo con el workflow estandar de liberaci\u00f3n.",
+    "areas": [
+      53,
+      54,
+      51,
+      6
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 103,
+  "fields": {
+    "proyecto": 19,
+    "descripcion": "POC para desarrollo de aplicaciones utilizando framework SAPUI5.",
+    "areas": [
+      38,
+      54,
+      51
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 104,
+  "fields": {
+    "proyecto": 19,
+    "descripcion": "Compra directa de tienda con proveedor, en forma masiva y basada en sistema de planeamiento de necesidad de reposici\u00f3n est\u00e1ndar.",
+    "areas": [
+      18,
+      20
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 105,
+  "fields": {
+    "proyecto": 19,
+    "descripcion": "Validaciones de solapamiento de promociones y aseguramiento de consistencia de las mismas por familia de precios y unidades de medida.",
+    "areas": [
+      20
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 106,
+  "fields": {
+    "proyecto": 19,
+    "descripcion": "Carga masiva y borrado de condiciones de venta de zona de precios.",
+    "areas": [
+      20,
+      17
+    ]
+  }
+},
+{
+  "model": "curriculum.tareaproyecto",
+  "pk": 107,
+  "fields": {
+    "proyecto": 19,
+    "descripcion": "Carga masiva y actualizaci\u00f3n de promociones.",
+    "areas": [
+      20,
+      17
+    ]
+  }
+}
+]

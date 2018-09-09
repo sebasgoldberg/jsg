@@ -1,14 +1,12 @@
-from django.conf.urls import patterns, include, url
-from django.conf import settings
+from django.conf.urls import include, url
 from django.contrib import admin
+from default import views
 
 admin.autodiscover()
 
-urlpatterns = patterns('',
-    url(r'^$', 'default.views.home', name='home'),
-    url(r'^estudios$', 'default.views.estudios', name='estudios'),
-    url(r'^proyectos$', 'default.views.proyectos', name='proyectos'),
-    url(r'^contacto$', 'default.views.contacto', name='contacto'),
-    url(r'^media/(?P<path>.*)$', 'django.views.static.serve',
-      {'document_root': settings.MEDIA_ROOT}),
-)
+urlpatterns = [
+    url(r'^$', views.home, name='home'),
+    url(r'^estudios$', views.estudios, name='estudios'),
+    url(r'^proyectos$', views.proyectos, name='proyectos'),
+    url(r'^contacto$', views.contacto, name='contacto'),
+]
